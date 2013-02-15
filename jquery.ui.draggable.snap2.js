@@ -2,7 +2,24 @@
  * jquery.ui draggable snap2
  * allow selection of sides to snap to
  * Steve Rubin - srubin@cs.berkeley.edu
+ *
+ * based directly on:
+ * jQuery UI Draggable @VERSION
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/draggable/
+ *
+ * Depends:
+ *    jquery.ui.core.js
+ *	jquery.ui.mouse.js
+ *	jquery.ui.widget.js
+ *  jquery.ui.draggable.js
  */
+
 
 $.ui.plugin.add("draggable", "snap2", {
     start: function() {
